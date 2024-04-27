@@ -9,10 +9,10 @@ namespace ClassicExtended
         public string ChatPrefix { get; set; } = "";
 
         [JsonPropertyName("DatabaseHost")]
-		public string DatabaseHost { get; set; } = "";
+	public string DatabaseHost { get; set; } = "";
 
-		[JsonPropertyName("DatabasePort")]
-		public int DatabasePort { get; set; } = 3306;
+	[JsonPropertyName("DatabasePort")]
+	public int DatabasePort { get; set; } = 3306;
 
         [JsonPropertyName("DatabaseUser")]
         public string DatabaseUser { get; set; } = "";
