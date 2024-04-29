@@ -164,7 +164,7 @@ public partial class ClassicExtended : BasePlugin, IPluginConfig<ClassicExtended
                 {
                     var assisterData = await SelectUser(assister);
                     assisterData.Assists += 1;
-                    _userDataCache.TryAdd(attacker, assisterData);
+                    _userDataCache.TryAdd(assister, assisterData);
                 }
             });
         }
